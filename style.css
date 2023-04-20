@@ -9,7 +9,19 @@ body {
     display: flex;
     /* background: green; */
     height: 100vh;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    /* background: linear-gradient(to right, #00AAFF, #00FF6C); */
+}
+
+/* Define the styles for the light theme */
+.light-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+  /* Define the styles for the dark theme */
+.dark-theme {
+    background-color: #000;
+    color: #fff;
 }
 
 main {
@@ -150,14 +162,4 @@ button:nth-child(4):hover {
 }
 
 
-.light-theme {
-    /* light theme styles */
-    background-color: #fff;
-    color: #000;
-}
 
-.dark-theme {
-    /* dark theme styles */
-    background-color: #000;
-    color: #fff;
-}
